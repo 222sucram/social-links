@@ -102,17 +102,13 @@ li {
     font-size: 14px;
     font-weight: 700;
     border-radius: 8px;
-    transition: background-color 0.2s ease-in, color 0.2s ease-in;
+    transition: background-color 0.5s ease-in, color 0.5s ease-in;
 }
   
 .btn:hover {
     background-color: var(--Green);
     color: var(--Grey-900);
-    transition: background-color 2s ease-out, color 1s ease-out;
-}
-
-.btn:hover,.btn:active {
-    transition: backgroun-color 0.2s;
+    transition: background-color 0.15s ease-out, color 0.15s ease-out;
 }
 
 button:focus {
